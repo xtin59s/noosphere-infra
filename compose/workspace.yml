@@ -31,7 +31,7 @@ services:
       - noosphere-net
 
   postgres:
-    image: postgres:17
+    image: ghcr.io/xtin59s/postgres:17
     container_name: noosphere-postgres
     restart: unless-stopped
     ports:
